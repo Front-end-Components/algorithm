@@ -20,8 +20,8 @@ function solution(dartResult) {
     if (dartResult[i] === "S") arr.push(score);
     if (dartResult[i] === "D") arr.push(Math.pow(score, 2));
     if (dartResult[i] === "T") arr.push(Math.pow(score, 3));
-    if (dartResult[i] == "#") arr[arr.length - 1] *= -1;
-    if (dartResult[i] == "*") {
+    if (dartResult[i] === "#") arr[arr.length - 1] *= -1;
+    if (dartResult[i] === "*") {
       arr[arr.length - 1] *= 2;
       arr[arr.length - 2] *= 2;
     }

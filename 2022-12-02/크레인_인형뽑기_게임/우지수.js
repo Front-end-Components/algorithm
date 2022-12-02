@@ -24,4 +24,8 @@ function solution(board, moves) {
         }
     }
     return answer;
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 84b9f09 (크레인_인형_뽑기_우지수)

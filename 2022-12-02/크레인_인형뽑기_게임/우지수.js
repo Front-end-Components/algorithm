@@ -18,6 +18,7 @@ function solution(board, moves) {
         } else {
             stack.push(board[i][j]);
         }
+
         // 꺼낸 요소는 0으로 바꿔주기
         board[i][j] = 0;
         break;

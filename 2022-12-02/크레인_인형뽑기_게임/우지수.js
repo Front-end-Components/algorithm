@@ -18,11 +18,22 @@ function solution(board, moves) {
         } else {
             stack.push(board[i][j]);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1b8fb8c5a9f7cdcb8e25eaa972f1832333ad21e8
         // 꺼낸 요소는 0으로 바꿔주기
         board[i][j] = 0;
         break;
         }
     }
     return answer;
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+
+>>>>>>> 84b9f09 (크레인_인형_뽑기_우지수)
+>>>>>>> 1b8fb8c5a9f7cdcb8e25eaa972f1832333ad21e8

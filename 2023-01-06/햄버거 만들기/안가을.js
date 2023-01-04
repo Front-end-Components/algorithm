@@ -16,7 +16,7 @@ function solution(ingredient) {
         answer++;
 
         // 스택 배열의 뒤에서 4번째부터 마지막까지의 요소 삭제
-        stack.splice(-4, 4);
+        stack.splice(-4);
       }
     }
   });

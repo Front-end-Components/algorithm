@@ -4,7 +4,7 @@ function solution(n) {
   // 더하기를 시작할 숫자
   let start = 1;
 
-  // n보다 작거나 같을 때 까지 반복
+  // 더하기를 시작할 숫자가 n보다 작거나 같을 때 까지 반복
   while (start <= n) {
     let sum = 0;
 

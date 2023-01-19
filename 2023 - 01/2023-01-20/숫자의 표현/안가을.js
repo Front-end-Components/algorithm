@@ -8,7 +8,7 @@ function solution(n) {
   while (start <= n) {
     let sum = 0;
 
-    // start부터 n까지 반복
+    // 더하기를 시작할 숫자부터 n까지 반복
     for (let i = start; sum <= n; i++) {
       // 합계 변수에 i를 누적함
       sum += i;

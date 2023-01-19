@@ -6,11 +6,11 @@ function solution(s) {
     // 0의 갯수를 카운트해서 변수에 할당
     const zeroCnt = s.match(/0/g) ? s.match(/0/g).length : 0;
 
-    // 0을 제거한 문자열의 길이 : 문자열의 길이 - 0의 갯수
-    const length = s.length - zeroCnt;
-
     // 0의 갯수를 정답 배열의 두번째 요소에 누적 (제거한 0의 갯수)
     answer[1] += zeroCnt;
+
+    // 0을 제거한 문자열의 길이 : 문자열의 길이 - 0의 갯수
+    const length = s.length - zeroCnt;
 
     // 문자열의 길이를 2진법으로 변환
     s = length.toString(2);

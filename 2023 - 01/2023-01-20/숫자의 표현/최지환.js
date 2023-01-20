@@ -3,7 +3,7 @@ function solution(n) {
   // 1부터 n 까지의 숫자를 배열로 선언
   const numbers = Array(n)
     .fill()
-    .map((el, idx) => idx + 1);
+    .map((el, idx) => (el = idx + 1));
   // 숫자들의 합을 담을 배열
   let sum = Array(halfN).fill(0);
 

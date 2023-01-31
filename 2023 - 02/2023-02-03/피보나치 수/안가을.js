@@ -1,5 +1,4 @@
 function solution(n) {
-  let answer = 0;
   // n은 2 이상의 정수이기 때문에 stack 배열에 미리 0~1번째 피보나치 수를 넣어놓음
   let stack = [0, 1];
 
@@ -12,9 +11,8 @@ function solution(n) {
     stack.shift();
   }
 
-  // stack 배열의 1번째 요소를 정답 변수에 할당하여 리턴함 (n번째 피보나치 수)
-  answer = stack[1] % 1234567;
-  return answer;
+  // stack 배열의 1번째 요소를 리턴함 (n번째 피보나치 수)
+  return stack[1];
 }
 
 console.log(solution(3)); // 2
